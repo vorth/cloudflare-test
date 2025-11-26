@@ -11,3 +11,12 @@
 
 #!.yarn/cache
 .pnp.*
+
+scraped/*
+_site/
+
+deno-tool/
+
+node_modules/
+
+media/
