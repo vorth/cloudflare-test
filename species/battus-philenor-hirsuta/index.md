@@ -1,12 +1,7 @@
 ---
 title: Battus philenor hirsuta
+image: storage/Bphilenorhirsutaseries1_600w.jpg
 ---
-
-## *{{ title }}*
-
-<span class="full-image-float-right ssNonEditable">
-  <img style="width: 300px;" src="{{ global.imagesUrl }}/storage/Bphilenorhirsutaseries1_600w.jpg" alt="butterfly male/female dorsal/ventral series" />
-</span>
 
 **Photo Life History:** [Bay Natives](http://www.baynatives.com/plants/Aristolochia-californica/)
 

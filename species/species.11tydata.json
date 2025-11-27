@@ -1,4 +1,4 @@
 {
-  "layout" : "page.njk",
-   "tags" : "species"
+  "layout" : "species.njk",
+  "tags" : "species"
 }
