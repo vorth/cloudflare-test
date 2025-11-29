@@ -3,7 +3,6 @@ title: Anthocharis thoosa
 image: storage/Asarathoosaseries_4_600w.jpg
 ---
 
-   
 <p><span><span><strong>Photo Life History:</strong>&nbsp; <a href="../anthocharis-sara-immatures/ianthocharis-thoosa-thoosai/index.html"><em>Anthocharis thoosa</em></a></span></span></p>
 <p><span><strong>Habitat:</strong></span>&nbsp; <a href="../habitat/mountain-canyons/index.html">Mountain Canyons</a></p>
 <p><span><strong>Host Plants:</strong></span>&nbsp; <span style="text-decoration: none;"><em><a href="../descurainia-pinnata/index.html">Descurainia pinnata</a></em>; <em><a href="../arabis-perennans/index.html">Arabis perennans</a></em>; <em>Arabis holboellii</em>;<em> <a href="../isatis-tinctoria/index.html">Isatis tinctoria</a></em></span></p>
@@ -22,3 +21,4 @@ image: storage/Asarathoosaseries_4_600w.jpg
 <p><strong>Avoiding Diapause Techniques: </strong>&nbsp;Not effective for univoltine populations.&nbsp; However, if you&nbsp;expose ssp. <em>inghami </em>late instar larvae and/or pupae to rain water, that may encourage same year emergence in populations that have been known to be bivoltine during extraordinarily wet springs.</p>
 <p><strong>Disease Prevention:</strong>&nbsp; Change out host plant and remove frass every three to four days.</p>
 <p><strong>Field Notes:</strong>&nbsp; Due to field research (in press), subspecies <em>thoosa, inghami, </em>and<em> colorado </em>are applied to species '<em>thoosa</em>'.&nbsp; Populations of <em>Anthocharis sara</em> feed on <em>Brassica nigra</em> in California whereas Utah populations of <em>Anthocharis thoosa</em> accept <em>Brassica nigra</em> for a few instars and die.</p>
+
