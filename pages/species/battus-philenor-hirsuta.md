@@ -1,5 +1,6 @@
 ---
 title: Battus philenor hirsuta
+common: California Pipevine Swallowtail
 image: storage/Bphilenorhirsutaseries1_600w.jpg
 ---
 

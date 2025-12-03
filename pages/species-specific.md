@@ -1,11 +1,9 @@
 ---
-layout: page.njk
 title: Species Specific
 permalink: raising_butterflies_301/
 ---
 
 
-  
 ## Species Specific
 
 <p><span class="full-image-float-right ssNonEditable"><span><img style="width: 275px;" src="{{ global.imagesUrl }}/storage/minori_collage.jpg" alt="" /></span></span></p>
