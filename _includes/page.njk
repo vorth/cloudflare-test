@@ -751,6 +751,22 @@ title: Raising Butterflies
           </div>
 
           <div id="contentWrapper">
+
+            <nav aria-label="Breadcrumb">
+              <ul>
+                {# 1. Get the breadcrumb trail for the current page #}
+                {% set navPages = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key) %}
+                
+                {# 2. Loop through parents #}
+                {% for crumb in navPages %}
+                  <li>
+                    <a href="{{ crumb.url }}">{{ crumb.title }}</a>
+                  </li>
+                {% endfor %}
+
+              </ul>
+            </nav>
+
             <div id="content">
               {{ content | safe }}
             </div>

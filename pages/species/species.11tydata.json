@@ -1,4 +1,8 @@
 {
   "layout" : "species.njk",
-  "tags" : "species"
+  "tags" : "species",
+  "eleventyNavigation": {
+    "key": "{{ title }}",
+    "parent": "Species Specific"
+  }
 }
