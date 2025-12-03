@@ -1,6 +1,9 @@
 ---
 title: Species Specific
 permalink: raising_butterflies_301/
+eleventyNavigation:
+  key: Species Specific
+  parent: Home
 ---
 
 

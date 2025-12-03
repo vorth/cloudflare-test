@@ -1,5 +1,8 @@
 ---
 title: Butterfly Habitat
+eleventyNavigation:
+  key: Butterfly Habitat
+  parent: Techniques for Obtaining Immatures
 ---
 
   <script type="text/javascript">

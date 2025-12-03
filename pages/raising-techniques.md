@@ -1,5 +1,8 @@
 ---
 title: Techniques and Setups
+eleventyNavigation:
+  key: Techniques and Setups
+  parent: Home
 permalink: raising-techniques/
 ---
 

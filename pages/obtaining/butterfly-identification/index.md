@@ -1,5 +1,8 @@
 ---
 title: Butterfly Identification
+eleventyNavigation:
+  key: Butterfly Identification
+  parent: Techniques for Obtaining Immatures
 ---
 
 ## {{ title }}
