@@ -1,12 +1,12 @@
 # Raising Butterflies, migrated to Eleventy
 
-### Commands Applied
+This project contains the source code for [Raising Butterflies](https://raisingbutterflies.org).
+The site was created by Todd Stout, and he continues to maintain it.
+This project was created by Scott Vorthmann, to enable Todd to migrate from SquareSpace 5.0
+and gain more control and longevity for the site.
 
-To find all the species specific pages of butterflies:
-```bash
-pup --color -f scraped/www.raisingbutterflies.org/raising_butterflies_301/index.html '#content a attr{href}' > species-list.txt
-```
-The resulting `species-list.txt` was then cleaned up manually, removing duplicates and irrelevant or broken link URLs.
+## Testing Changes Locally
 
-Note: the full list of species on that page includes a lot of non-links, species for which there is no page.
+You can build a local version of the website, for testing changes.
 
+## Publishing Your Changes

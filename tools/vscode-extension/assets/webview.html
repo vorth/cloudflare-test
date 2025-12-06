@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Tools</title>
+    <style>
+        body { font-family: var(--vscode-font-family); padding: 20px; }
+        button { 
+            background-color: var(--vscode-button-background); 
+            color: var(--vscode-button-foreground); 
+            border: none; 
+            padding: 8px 12px; 
+            cursor: pointer; 
+            margin-bottom: 10px;
+            text-align: left;
+            border-radius: 6px;
+        }
+        button.contrast { background-color: var(--vscode-button-secondaryBackground); color: var(--vscode-button-secondaryForeground); }
+        button:hover { background-color: var(--vscode-button-hoverBackground); }
+        .card {
+            background-color: var(--vscode-editor-background);
+            border: 1px solid var(--vscode-widget-border);
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 4px;
+        }
+        h2 { margin-top: 0; font-size: 1.1em; }
+        .buttons {
+            display: flex;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Website Tools</h1>
+    
+    <div class="card">
+        <h2>Local Site Tasks</h2>
+        <div class="buttons">
+          <button class="contrast" onclick="runTask('Start Dev Server')">Rebuild and Restart Dev Server</button>
+          <button onclick="runTask('View Local Site')">View Local Site</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>R2 Sync</h2>
+        <button onclick="runCommand('echo ./r2-copy-script.sh')">Run R2 Sync Script</button>
+    </div>
+
+    <script>
+        const vscode = acquireVsCodeApi();
+
+        function runCommand(cmd) {
+            vscode.postMessage({
+                command: 'runCommand',
+                text: cmd
+            });
+        }
+
+        function runTask(taskName) {
+            vscode.postMessage({
+                command: 'runTask',
+                text: taskName
+            });
+        }
+    </script>
+</body>
+</html>

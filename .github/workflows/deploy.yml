@@ -1,0 +1,31 @@
+name: Deploy to Cloudflare Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
+    steps:
+      - uses: actions/checkout@v4
+
+      # 1. Build your site
+      - name: Build
+        run: |
+          yarn install
+          IMAGES_URL=${{ secrets.CLOUDFLARE_R2_IMAGES_URL }} yarn exec eleventy
+        # Ensure this outputs to your build folder (e.g., '_site', 'dist', 'public')
+
+      # 2. Deploy to Cloudflare
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy _site --project-name=my-project --branch=main
+          # Replace '_site' with your actual build output directory

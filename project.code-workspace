@@ -1,0 +1,11 @@
+{
+  "folders": [
+    {
+      "path": "." // Your main project
+    },
+    {
+      "path": "tools/vscode-extension" // Your extension
+    }
+  ],
+  "settings": {}
+}
