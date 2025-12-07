@@ -27,5 +27,5 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy _site --project-name=my-project --branch=main
+          command: pages deploy _site --project-name=raisingbutterflies-mockup --branch=main
           # Replace '_site' with your actual build output directory
