@@ -19,13 +19,3 @@ check out our <a href="/getting_started/">beginner section</a>.</p>
 <p>If you would like to learn more about how to locate butterfly eggs and caterpillars in the wild and want to learn what&nbsp;types of containers and equipment&nbsp;you need&nbsp;to take care of them, please visit our <a href="/raising-techniques/">techniques and setups section</a>.&nbsp; (This section has&nbsp;a lot of information.)</p>
 <p>Lastly, if you're looking to&nbsp;rear a specific butterfly species or want to learn strategies as it applies for&nbsp;a given taxon, or even a species group, please visit our 
 <a href="/raising_butterflies_301/">species specific</a>&nbsp;section.&nbsp; This section will provide a report based upon 20 key parameters of butterfly rearing.</p>
-
-<hr />
-
-<div id="FollowMe" style="float: left;"><span><a title="Facebook" rel="me" href="http://www.facebook.com/?sk=lf#!/pages/Raising-Butterflies/203904312967086?sk=wall" target="_blank"><img src="{{ global.imagesUrl }}/storage/facebook.png" border="0" alt="" /></a></span></div>
-
-<span><a rel="me" href=" http://twitter.com/#!/RaisingBflies "title="Twitter" target="_blank"><img src="{{ global.imagesUrl }}/storage/twitter.png" alt="" border="0"/></a></span>
-
-<span><a rel="me" href=" http://raising-butterflies.blogspot.com/"title="Blogspot" target="_blank"><img src="{{ global.imagesUrl }}/storage/bloggerbutton3.png" alt="" border="0"/></a></span>
-
-<span><a rel="me" href=" http://pinterest.com/raisebutterflys/raising-butterflies/"title="Pinterest" target="_blank"><img src="{{ global.imagesUrl }}/storage/pinterest3.png" alt="" border="0"/></a></span>

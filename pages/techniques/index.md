@@ -43,12 +43,3 @@ permalink: raising-techniques/
 <li>What can you do to avoid disease?</li>
 <li>What can you do to avoid diapause?</li>
 </ul>
-
-<p>_________________________________________________________________________________</p>
-<div id="FollowMe" style="float: left;"><span><a title="Facebook" rel="me" href="http://www.facebook.com/?sk=lf#!/pages/Raising-Butterflies/203904312967086?sk=wall" target="_blank"><img src="../storage/facebook.png" border="0" alt="" /></a></span></div>
-
-<span><a rel="me" href=" http://twitter.com/#!/RaisingBflies "title="Twitter" target="_blank"><img src="../storage/twitter.png" alt="" border="0"/></a></span>
-
-<span><a rel="me" href=" http://raising-butterflies.blogspot.com/"title="Blogspot" target="_blank"><img src="../storage/bloggerbutton3.png" alt="" border="0"/></a></span>
-
-<span><a rel="me" href=" http://pinterest.com/raisebutterflys/raising-butterflies/"title="Pinterest" target="_blank"><img src="../storage/pinterest3.png" alt="" border="0"/></a></span>
