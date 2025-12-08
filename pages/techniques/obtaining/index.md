@@ -2,7 +2,7 @@
 title: Techniques for Obtaining Immatures
 eleventyNavigation:
   key: Techniques for Obtaining Immatures
-  parent: Home
+  parent: Techniques and Setups
 permalink: techniques-for-obtaining-immat/
 ---
 

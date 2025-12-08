@@ -21,9 +21,7 @@ eleventyNavigation:
 
 
   
-    <h2 class="document-title">
-              <a href="../../habitat.html">Butterfly Habitat</a> &gt; Agricultural&nbsp;Areas
-    </h2>
+    <h2 class="document-title"> Agricultural Areas </h2>
 
   
 

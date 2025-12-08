@@ -3,6 +3,7 @@ title: Butterfly Habitat
 eleventyNavigation:
   key: Butterfly Habitat
   parent: Techniques for Obtaining Immatures
+permalink : habitat/
 ---
 
   <script type="text/javascript">

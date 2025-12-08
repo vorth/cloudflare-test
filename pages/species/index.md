@@ -1,6 +1,7 @@
 ---
 title: Species Specific
 permalink: raising_butterflies_301/
+eleventyExcludeFromCollections: [ "species" ]
 eleventyNavigation:
   key: Species Specific
   parent: Home
