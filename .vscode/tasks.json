@@ -53,6 +53,27 @@
         "panel": "shared"
       },
       "problemMatcher": []
+    },
+    {
+      "label": "Publish Site",
+      "type": "shell",
+      "command": "./tools/git-commit-push.sh",
+      "args": [
+        "${input:commitMessage}"
+      ],
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    }
+  ],
+  "inputs": [
+    {
+      "id": "commitMessage",
+      "type": "promptString",
+      "description": "Enter snapshot label",
+      "default": "Content update"
     }
   ]
 }
