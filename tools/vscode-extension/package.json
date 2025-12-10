@@ -10,7 +10,7 @@
     "Other"
   ],
   "activationEvents": [
-    "*"
+    "workspaceContains:pages/species/index.md"
   ],
   "main": "./out/extension.js",
   "contributes": {

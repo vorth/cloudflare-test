@@ -76,6 +76,46 @@
         "reveal": "silent",
         "panel": "dedicated"
       },
+    },
+    {
+      "label": "View Original Site",
+      "type": "shell",
+      "command": "open https://raisingbutterflies.org",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "silent",
+        "panel": "dedicated"
+      },
+    },
+    {
+      "label": "View GitHub Repo",
+      "type": "shell",
+      "command": "open https://github.com/vorth/cloudflare-test/actions",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "silent",
+        "panel": "dedicated"
+      },
+    },
+    {
+      "label": "View CloudFlare Pages",
+      "type": "shell",
+      "command": "open https://dash.cloudflare.com/97a1ec58ba7f64831320e12177e5889a/pages/view/raising-butterflies",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "silent",
+        "panel": "dedicated"
+      },
+    },
+    {
+      "label": "View CloudFlare R2 Bucket",
+      "type": "shell",
+      "command": "open https://dash.cloudflare.com/97a1ec58ba7f64831320e12177e5889a/r2/default/buckets/website-images-test",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "silent",
+        "panel": "dedicated"
+      },
     }
   ],
   "inputs": [
