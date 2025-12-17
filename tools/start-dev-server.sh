@@ -1,11 +1,11 @@
 #! /usr/bin/env bash
 
 # Install dependencies
-yarn
+npm install
 
 # Clean out any previous build
 rm -rf _site; 
 
 # Start the development server
-yarn exec eleventy -- --serve --port=8118
+npm exec eleventy -- --serve --port=8118
 

@@ -7,10 +7,11 @@ cd "$(dirname "$0")/vscode-extension"
 echo "Installing dependencies..."
 npm install
 
+
 echo "Packaging extension..."
 # Remove any existing vsix files to avoid confusion
 rm -f *.vsix
-npx vsce package --allow-missing-repository --allow-star-activation
+npx vsce package --allow-missing-repository --allow-star-activation --no-yarn
 
 echo "Installing extension..."
 # Find the generated vsix file
